@@ -1,0 +1,332 @@
+q.What will be the output of the following pseudocode?
+Integer a,b,c
+Set a= 8,b= 10,c= 6
+if(a>c AND (b+c) > a)
+	print a
+end if
+if(c>b OR (a+c) > b)
+	print b
+end if
+if((b+c) mod a equals 0)
+	print c
+end if
+
+
+a. 8 10 6
+
+q.What will be the output of the following pseudocode?
+Integer c,n
+Set n= 6
+Set c=n
+print c //line 2
+c=c-2
+if (c>0)
+    go to line 2
+end if
+
+
+a. 6 4 2
+
+q.What will be the output of the following pseudocode?
+integer i,sum
+Set i=1,sum=0
+sum=sum+i //Line 1
+if (sum>500)
+    print i
+else
+    i=i+1
+    go to Line 1
+end if
+
+a.32
+
+q.What will be the output of the following pseudocode?
+Integer p,q,r
+Set p=2,q=7,r=-1
+p=p+q+r-q
+q=p+r-q
+if(p>q)
+    print "good bye”
+else
+    print “take care
+    
+a.good bye
+
+q.What will be the output of the following pseudocode?
+a=1,b=2
+Integer func(integer a, integer b)
+Integer temp
+while(b)
+    temp=a mod b
+    a=b
+    b=temp
+end while
+return a
+end function func()
+
+a.1
+
+q.What will be the output of the following pseudocode?
+Integer x,y,z,a
+Set y=2
+Set x=(y=y*2)+(z=a=y)
+print x
+
+a. 8
+
+q.What will be the output of the following pseudocode?
+integer a =50, b =25, c =5
+print a * b / c + c
+
+a.255
+
+q.What will be the output of the following pseudocode?
+Integer x,y
+for(each x from 1 to 11)
+    x=x+2
+end for
+print x
+
+a. 13
+
+
+q.What will be the output of the following pseudocode?
+Set length = 5
+Set breadth = 7
+Set area = length * breadth
+Set perimeter = 2 * (length + breadth)
+if area > perimeter then
+    display "Area is greater than perimeter."
+else
+    display "Area is lesser than perimeter."
+end-if
+
+a.Area is greater than perimeter
+
+q.What will be the output of the following pseudocode?
+Set integer value = 56
+Set integer res = 0
+while(value not equals 0) do
+    m = value % 10
+    res = res * 10 + m
+    value = value / 10
+display res
+
+a.65
+
+q.What will the output be when the following program is executed?
+Set integer res = 1
+while(res <= 7 and res++) do
+    display "Pseudocode"
+end-while
+
+a.Pseudocode is displayed 7 times
+
+q.What will be the output of the following pseudocode?
+Set integer sm = 0
+Set integer p = 10
+for a = 1 to p step up 1 do
+    sm = sm + a
+display sm
+
+a.55
+
+q.What will be the output when following program is executed?
+Set copper_percentage = 100
+Set UNS = 66099
+if(copper_percentage < 90 and UNS > 70000 and UNS < 79999) then
+    display "Cast"
+end-if
+if(copper_percentage >= 90 and UNS > 64700 and UNS < 70000) then
+    display "Wrought"
+end-if
+if(copper_percentage > 90 and UNS > 66999 and UNS < 70000) then
+    display "Rod"
+end-if
+
+a.Wrought
+
+
+q.What will be the output of the following pseudocode?
+Set integer val = 5
+while((display "Pseudocode") and (val--))
+end-while by a semi-colon
+
+a.Pseudocode is displayed 6 times.
+
+q.What will happen when the following code is executed?
+Function hello()
+    hello()
+end
+Function main()
+    hello()
+end
+
+a.Code will execute successfully and display nothing
+
+
+q.What will be the output when following program is executed?
+Function value(a,b) : integer
+    return a*b/b*a
+Function Test()
+    Set integer result = value(5, 10)
+    display result
+Function main()
+    call Test()
+    
+    
+ a.25
+ 
+ 
+ q.What will be the output of the following pseudocode?
+Set integer res = 5
+if (res++ > 4 and (res++ not equals 5) and res++ > 6) the do
+    display res
+else
+    display res
+end-if
+
+
+a.8
+
+
+q.Consider the following pseudocode:
+What would be the output of this program if the input is 9?
+START
+Integer NumHours, Regular, Overtime, PayAmount, RegPay, OverPay
+GET NumHours
+SET Regular = 8
+SET RegPay = 10
+SET OverPay = 5
+SET Overtime = NumHours - Regular
+IF(Overtime>0)
+    THEN
+SET PayAmount = (Regular * RegPay) + (Overtime * OverPay)
+    ELSE
+SET PayAmount = NumHours * RegPay
+END IF
+Print 'The amount to be paid is: ', PayAmount
+END
+
+
+a. The amount to be paid is: 85
+
+q.The following program is used to identify which type of number.
+get a number
+initialize a temp variable
+set temp = 0
+initialized and set i = 0
+while(i++ is less than half of the number){
+    if(remainder of the division between number and i is 0){
+        add the value of i to the temp variable
+    }
+}
+if(temp is equal to number){
+    return true
+}
+else{
+    return false
+}
+
+
+a.Perfect
+
+q.What will be the output for below pseudoode for x = 5 and y = 6
+READ x and y
+SET ans = 0
+WHILE  y != 0
+    ans = ans + x
+    y = y - 1
+EndWHILE
+PRINT ans
+
+a.30
+
+What will be the output of the following pseudocode?
+Integer a, b
+Set a = 10
+Set b = a + a
+if (b > a && 0)
+    b = b - a
+    b = b mod a
+End if
+if (b > a || 0)
+    b = b + a
+    b = b + a
+End if
+Print b
+[Note- mod finds the remainder after the division of one number by another. For example, the "5 mod 2" would evaluate to 1 because 5 divided by 2 leaves a quotient of 2 and a remainder of 1]
+[Note-&&: Logical AND - The logical AND operator (&&) returns the Boolean value true(or 1) if both operands are true and return false (or 0) otherwise
+&: bitwise AND - The bitwise AND operator (&) compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0]
+
+
+a.40
+
+
+q.How many times the following pseudocode will print "btech"?
+Integer a,b
+for(each a from 0 to 3)
+    for(each b from 0 to a)
+        print "btech"
+    end for
+end for
+
+a.10 times
+
+
+q.What will be the output of the following pseudocode?
+Integer a, b, c
+Set b = 10, a = 1
+for(each c from 1 to 2)
+    a = (a+c) * c
+    b = b - c
+End for
+if(0)
+    b=a-1
+    a=a-1
+    a=b+1
+Else
+    a=b+1
+    b=a-1
+    a=a-1
+End if
+Print a + b + c
+[Note: If(x) gets executed if the value inside if(), i.e., x is not zero]
+
+a.17
+
+
+q.What will be the output of the following pseudocode?
+Integer a, b, c
+Set b = 10, a = 1
+for(each c from 1 to 2)
+    a = (a+c) * c
+    b = b - c
+End for
+if(0)
+    b=a-1
+    a=a-1
+    a=b+1
+Else
+    a=b+1
+    b=a-1
+    a=a-1
+End if
+Print a + b + c
+[Note: If(x) gets executed if the value inside if(), i.e., x is not zero]
+
+a.11
+
+q.What will be the output of the following pseudocode?
+Integer a, b, c
+Set b = 1, c = 1
+for(each a from 1 to 3)
+    b = b >> 1
+    c = c << b
+End for
+Print b + c
+[Note: >> - Bitwise right shift operator, it takes two numbers, right shifts the bits of the first operand,
+the second operand decides the number of places to shift, << is left shift operator, it takes two numbers,
+left shifts the bits of the first operand, the second operand decides the number of places to shift]
+
+a. 1
