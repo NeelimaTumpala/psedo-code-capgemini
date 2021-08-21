@@ -1,0 +1,330 @@
+q.What is the output for the following code, if the value of a is 20  and b is 35?
+Integer a, b
+Input a, b
+a = b
+b = a
+Print(a,b)
+
+a.35 35
+
+q.What is the output for the following code, if the value of a is 4, n is 12, and r is 2?
+Input a, n, r
+sum = 0
+sum = (a * (1 - power(r, n + 1))) / (1 - r)
+Print(sum)
+
+a.32764
+
+q.What is the output of the following code?
+z = 3 + 4 - 20 * 4 * 4 + 7
+print(z)
+
+a. -306
+
+q.What is the output  of this code?
+a = 1
+b = 2
+c = 3
+d = 4
+n = 1
+Repeat until(n <= 5):
+    c = a * c
+    d = a * d
+    print(c)
+    n = n + 1
+    
+    
+a.3 3 3 3
+
+
+q.What is the output of the following code if the value of give and receive is 500 and 900, respectively?
+Input give, receive
+lost = receive - give
+perc = (lost / receive) * 100
+Print(perc)
+
+a.44.44
+
+q.What will be the output of this code?
+i = 1
+repeat until i+7<=8 {
+    i = i + 1
+}
+print(i+6)
+
+
+a.8
+
+q.What is the output for the following code?
+num = 1
+Repeat till(num <= 15) {
+    num = num + 1
+}
+Print(num)
+
+a.16
+
+q.What is the output of the following code?
+n = 1
+x = 10
+y = 10
+z = 10
+sum = 0
+i = 0
+Repeat till(i <= n) {
+    sum = (x + y + z) * (x - y - z)
+    i = i + 1
+}
+print(sum)
+
+a. -300
+
+
+q.What is the output of this code?
+a = 5
+b = 10
+n = 1
+Repeat until(n < 5):
+    c = a + b
+    a = b
+    b = c
+    print(c)
+    n = n + 1
+    
+a.15 25 40 65
+
+
+q.Predict the output.
+a = 1
+b = 2
+c = 3
+d = 4
+e = 5
+f = 6
+n = 1
+repeat until(n <= 5) {
+    a = a + n
+    b = b + n
+    c = c + n
+    d = d + n
+    e = e + n
+    f = f + n
+    print(f)
+    n = n + 1
+}
+
+a.7 9 12 16 21
+
+q.What is the output for the following code, if the value of the num is 25?
+x = 0
+Input n
+Repeat till(n != 1) {
+    if(n % 5 == 0) {
+        n /= 5;
+    }
+    else if(n % 3 == 0) {
+        n /= 3;
+    }
+    else if(n % 2 == 0) {
+        n /= 2;
+    }
+    else {
+        Print("Not an ugly number");
+        x = 1;
+        break;
+    }
+}
+if(x == 0) {
+    Print("Ugly number");
+}
+
+
+a. Ugly number
+
+
+q.What will be the output of the following algorithm?
+start
+declare a, i and b
+for i = 0 to 4
+    increment a by 1
+    if i=3 then
+        print hello
+        get out of the loop
+    end if
+end for
+print a
+
+
+a. hello4
+
+
+q.What will be the output of the following pseudocode?
+int p=4, q=7, r=10
+p=q mod r
+q=q+p
+r=r+q
+print p, q and r
+
+
+a.7 1 4 2 4
+
+
+q.What will be the output if n = 126?
+for (i = 1 to n-1)
+    rem = n%i;
+    if(rem=0)
+        sum = sum + i;
+if(sum = n)
+    print "Yes"
+else
+    print "No"
+    
+    
+ a.No
+ 
+ 
+ q.What will be the output of the following pseudocode?
+input : 5
+algorithm (integer num)
+set integer i = 2
+while i <= num/2
+    if num mod i = 0
+        print "unsuccessful" and exit;
+    i = i+1
+if (i == (num/2)+1)
+    print "successful"
+
+
+a. Successful
+
+
+q.What will be the output of the following Pseudocode?
+int a=9, b=7, c=8, d=4, e
+e = a + b + c + d / 4
+if (e > 5)
+    print "PASS"
+else
+    print "FAIL"
+    
+    
+a.PASS
+
+q.What will be the value of val if the input is 1, 2, 3, 9, 4 corresponding to n1 to n5?
+If(n1 < n2)
+    Set val to n2
+Else
+    Set val to n1
+If(n3 > val)
+    Set val to n3
+If(n4 > val)
+    Set val to n4
+If(n5 > val)
+    Set val to n5
+    
+    
+ a.9
+
+
+q.Create structure st with integer 'x' and object of st 'next'. What is the output of the below pseudo-code?
+main()
+Create structure object 'temp'
+Assign temp.x = 10
+Assign temp.next = temp
+Print temp.next.x
+
+a.Compiler Error
+
+
+q.What will be the output of the following pseudocode for a=12 and b=-26?
+start
+take 2 variables a and b
+check if a is less than 0 set a = -a
+check if b is less than 0 set b = -b
+repeat while a is not equal to b
+if a > b set a = a-b
+else set b = b - a
+print a
+Stop
+
+a. 2
+
+
+q.What will be the output of the following pseudocode for given array a[5]=3,4,6,1,2 and pos is 2?[note: n=size of the array i.e. 5 and starting array index is 0]
+Declare i,j,n,pos
+repeat for j=pos to n-1
+set a[j] = a[j+1] [end of loop]
+n=n-1;
+display the new array
+end
+
+
+a.3 4 1 2
+
+
+q.What will be the output of the following pseudocode?
+input m=9,n=6
+m=m+1
+n=n-1
+m=m+n
+if(m>n)
+    print m
+else
+    print n
+    
+    
+ a.15
+ 
+ q.What will be the output of the following pseudocode?
+input n = 1234
+integer q, r and rn
+set q = n and rn = 0
+while(q>0)
+    r = q mod 10
+    rn = rn + r ^ 3
+    q = q/10
+end while loop
+print rn
+
+a.100
+
+
+q.What will be the output of the following pseudocode for p=3, q=4?
+int fun1(int p, int p)
+    if(q EQUALS 0)
+        return 0
+    if(q mod 2 EQUALS 0)
+        return fun1( p+p, q/2)
+    return fun1(p+p, q/2)+p
+    
+    
+ a.12
+ 
+ 
+ q.What will be the output of the following pseudocode?
+For input a=8 & b=9.
+Function(input a, input b)
+    If(a<b)
+        return function(b,a)
+    elseif(b!=0)
+        return (a+fuction(a,b-1))
+    else
+        return 0
+        
+        
+ a.72
+ 
+ q.What will be the value of even_counter if number = 2630?
+Read number
+Function divisible(number)
+    even_counter = 0, num_remainder = number;
+    while(num_remainder)
+        digit = num_remainder%10;
+        if digit != 0 AND number % digit == 0
+            even_counter = even_counter+1
+        End If
+        num_remainder=num_remainder/10;
+End While
+return even_counter;
+
+
+a.1
