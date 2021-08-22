@@ -1,0 +1,680 @@
+Question 1
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a,b
+Set a=2, b=50
+    while(b>0)
+        a = b MOD 2 +a
+        if( a MOD 3 IS EQUAL TO 0)
+            Print (a)
+        else
+            Print(b-1)    
+        b=b/5
+        a=a+1
+end while
+
+Select one:
+
+a. 50, 10, 2
+
+b. 50, 3, 2
+
+c. 3, 3, 3
+
+d. 49, 3, 1
+Feedback
+Your answer is correct.
+The correct answer is: 49, 3, 1
+Question 2
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a,b,c
+Set a=6,b=84
+while(b>0)
+    b=b/2
+    a=a+6
+    c=a+b
+    while(c>40)
+        if(c mod 2 IS EQUAL TO 0)
+            Print a
+        else
+            Print b
+        c=c/10
+    End while
+End while
+Print c
+Select one:
+
+a. 12 1 4
+
+b. 12 4
+
+c. 12 1 48 4
+
+d. 48 4
+Feedback
+Your answer is incorrect.
+The correct answer is: 12 1 48 4
+Question 3
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the output of the following pseudo-code ?
+input a[ ]={12,14,16,18} and set sum =0
+for i=0 to n
+    if( a[i] mod 2 equals 0)
+    sum=sum+a[i]
+end for loop
+print sum
+Select one:
+
+a. 18
+
+b. 60
+
+c. 0
+
+d. 1
+Feedback
+Your answer is correct.
+The correct answer is: 60
+Question 4
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be returned?
+where n=3 and array elements are 12, 24, 64, 72, 88
+Integer fun(integer a[ ],integer n)
+integer x
+if(n is equal to 1)
+    return a[3]
+else
+    x = fun(a, n - 2)
+    end if
+if ( x < a[n] )
+    return x
+else
+    return a[n + 1]
+end if
+end function fun( )
+Select one:
+
+a. 100
+
+b. 88
+
+c. 72
+
+d. 88
+Feedback
+Your answer is incorrect.
+The correct answer is: 88
+Question 5
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c, d, e=0
+Set a=50 , b=3, c=3
+while(c>0)
+    d=a mod b
+    e= e+d + a
+    c= c - 1
+End while
+Print e
+Select one:
+
+a. 100
+
+b. 156
+
+c. 52
+
+d. 153
+Feedback
+Your answer is correct.
+The correct answer is: 156
+Question 6
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for i=140?
+Integer fun(integer i)
+if((i MOD 2) NOT EQUALS 0)
+    Return i
+Else
+    Return fun(fun(i-1))
+End function fun()
+Select one:
+
+a. 138
+
+b. 140
+
+c. None
+
+d. 139
+Feedback
+Your answer is correct.
+The correct answer is: 139
+Question 7
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the values of t if a=56 , b=876?
+read a,b
+function mul(a,b)
+    t=0
+    while (b!=0)
+        t=t+a
+        b=b-1
+    end while
+    return t;
+end function
+Select one:
+
+a. 490563
+
+b. 490563
+
+c. 490561
+
+d. 49056
+Feedback
+Your answer is correct.
+The correct answer is: 49056
+Question 8
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the out put of following pseudocode ?
+char[]text='TESTSTRING'
+integer a,c
+char ch='T'
+c=0
+for(each a from 0 to length of text)
+    if (text[a]==ch)
+        c=c+1
+    end if
+end for
+if (c>0)
+    print(c)
+else
+    print"0"
+Select one:
+
+a. 10
+
+b. 1
+
+c. 6
+
+d. 3
+Feedback
+Your answer is correct.
+The correct answer is: 3
+Question 9
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the out put of following pseudocode for input a=2 and b=4 ?
+int fun(int a,int b)
+{
+    int n=0
+    if(b<1)
+        return n
+    else
+        return fun(a+b+2,b-2)-->fun(12,0)
+}
+Select one:
+
+a. 58
+
+b. 22
+
+c. 9
+
+d. 0
+Feedback
+Your answer is correct.
+The correct answer is: 0
+Question 10
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the out put of the following pseudocode?
+integer a,b,c
+set b=10
+for(each a from 1 to 4)
+    b=b+a
+end for
+c=b/5
+print c
+Select one:
+
+a. 20
+
+b. 4
+
+c. 10
+
+d. 5
+Feedback
+Your answer is correct.
+The correct answer is: 4
+Question 11
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo-code if n=40 and LIMIT=100?
+Integer fun2(Integer n);
+if(n <+ 0)
+    return 1;
+if(n > LIMIT)
+    return 2;
+Print n
+fun2(2*n);
+Print n
+End function fun2()
+Select one:
+
+a. 20 40 40 20
+
+b. 40 80 80 40
+
+c. 10 20 20 10
+
+d. 80 120 120 80
+Feedback
+Your answer is correct.
+The correct answer is: 40 80 80 40
+Question 12
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo code for x=3 and y=4?
+integer fun(int x, int y)
+if(x>0)
+    fun(x-1,y+1);
+End if
+Print y
+End function fun()
+Select one:
+
+a. 8 5 4 2
+
+b. 2 0 3 4
+
+c. 5 2 1 4
+
+d. 7 6 5 4
+Feedback
+Your answer is correct.
+The correct answer is: 7 6 5 4
+Question 13
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will the output of the following pseudocode for i=140?
+integer fun(int i)
+if((i%2)!=0)
+    return i;
+else
+    return fun(fun(i=1));
+End function fun()
+Select one:
+
+a. 2
+
+b. 3
+
+c. 1
+
+d. 4
+Feedback
+Your answer is correct.
+The correct answer is: 1
+Question 14
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following algorithm?
+Start
+Declare a, I and b
+for I =0 to 4
+    Increment a by 1
+    if I = 3 then
+        print hello
+        get out of the loop
+    End if
+End for
+print a
+Select one:
+
+a. 4
+
+b. 2
+
+c. hello
+
+d. hello4
+Feedback
+Your answer is correct.
+The correct answer is: hello4
+Question 15
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo code ?
+Input m =9,n = 6
+m = m + 1
+n = n + 1
+m = m + n
+if(m>n)
+    print m
+else
+    print n
+Select one:
+
+a. 6
+
+b. 5
+
+c. 10
+
+d. 17
+Feedback
+Your answer is correct.
+The correct answer is: 17
+Question 16
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo code?
+Declare variable x, y and i
+Set x =0 and y =1
+for(int i=1; i<=4; i=i+1)
+    print x
+    x = x + y
+    y = x / y
+End of loop
+Select one:
+
+a. 0 1 2 4
+
+b. 1 0 2 4
+
+c. 4 2 0 1
+
+d. 0 1 2 3
+Feedback
+Your answer is correct.
+The correct answer is: 0 1 2 4
+Question 17
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo code ?
+Input f = 6,g = 9 and set sum = 0
+Integer n
+if (g > f)
+    for(n=f; n<g; n=n+1)
+        sum=sum + n
+    End of loop
+else
+    print Error messages
+print sum
+
+Select one:
+
+a. 20
+
+b. 19
+
+c. 15
+
+d. 21
+Feedback
+Your answer is incorrect.
+The correct answer is: 21
+Question 18
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode ?
+Input : 5
+Function Algorithm(integer num)
+    set Integer i=2
+    while i<=num/2
+    if num mod i = 0
+        print "unsuccessful" and exit
+    i= i+1;
+    if (i==(num/2)+1)
+        print "successful"
+    End while
+End function
+Select one:
+
+a. unsuccessful
+
+b. it will not print anything
+
+c. undefined behavior of algorithm
+
+d. successful
+Feedback
+Your answer is correct.
+The correct answer is: successful
+Question 19
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Input n = 1234
+Integer q, r and rn
+Set q=n and rn = 0
+while (q > 0)
+    r = q mod 10
+    rn = rn + r^3
+    q= q / 10
+End of loop
+print rn
+Select one:
+
+a. 36
+
+b. 110
+
+c. 100
+
+d. 321
+Feedback
+Your answer is correct.
+The correct answer is: 100
+Question 20
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+ch = ‘b’;
+while(ch >= ‘a’ && ch <= ‘z’)
+    ch++; 
+How many times the following loop be executed?
+Select one:
+
+a. 25
+
+b. 0
+
+c. 26
+
+d. 1
+Feedback
+Your answer is correct.
+The correct answer is: 25
+Question 21
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the value of t if a = 56, b = 876?
+Read a,b
+Function mul(a, b)
+    t = 0
+    while (b != 0)
+        t = t + a
+        b=b-1
+    End While
+    return t;
+End Function
+Select one:
+
+a. 490561
+
+b. 2345
+
+c. 490563
+
+d. 49056
+Feedback
+Your answer is correct.
+The correct answer is: 49056
+Question 22
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following code, for a = 8 & b = 9?
+Function(input a, input b)
+    If(a < b)
+        return function(b, a)
+    elseif(b != 0)
+        return (a + function(a,b-1))
+    else
+        return 0
+Select one:
+
+a. 68
+
+b. 70
+
+c. 75
+
+d. 72
+Feedback
+Your answer is correct.
+The correct answer is: 72
+Question 23
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer n
+    for (n = 3; n != 0; n–)
+        Print n
+         n = n-1
+    end for
+Select one:
+
+a. 3 2 1
+
+b. 1 2 3
+
+c. 3 1
+
+d. Infinite Loop
+Feedback
+Your answer is correct.
+The correct answer is: Infinite Loop
+Question 24
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the output of the following pseudocode?
+Input n is 4
+Integer i, j, n, Num = 1
+Repeat for i: =1 to n
+    Repeat for j: =1 to i
+        print Num
+        Increment Num by 1
+End loop
+Select one:
+
+a. Num
+NumNum
+NumNumNum
+NumNumNumNum
+
+b. 1
+23
+456
+78910
+
+c. 1
+22
+333
+4444
+
+d. 1
+12
+123
+1234
+Feedback
+Your answer is incorrect.
+The correct answer is: 1
+23
+456
+78910
+Question 25
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the output of the following pseudocode?
+Integer end, beg, n
+Set beg = 5, end = 7, sum = 0
+if ( beg > end )
+    print sum+1
+else
+    for( n = end; n >= beg; n=n-1)
+        sum = sum + n
+    end for loop
+endif
+print n
+Select one:
+
+a. 9
+
+b. 7
+
+c. 4
+
+d. 6
+Feedback
+Your answer is incorrect.
+The correct answer is: 4
