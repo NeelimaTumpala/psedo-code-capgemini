@@ -1,0 +1,656 @@
+What will be the output of the following pseudocode?  
+Integer a, b, c
+Set a = 4, b = 4, c = 5 
+if((c + a + b) < (8 - c)) 
+    c = (a + a) + b  
+    a = a + C 
+    a = b + b 
+End if 
+Print a + b + c
+Select one:
+
+a. 13
+
+b. 022
+
+c. 06
+
+d. 14
+Feedback
+Your answer is correct.
+The correct answer is: 13
+Question 2
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer p, q, r
+Set p = 3, q = 4, r = 6
+p = 3 + r
+p = p + q
+if((r – q + p) < (p + r))
+    q = 2 & r
+    q = q + p
+End if
+Print p + q + r
+[Note- &: bitwise AND – The bitwise AND operator (&) compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 18
+
+b. 29
+
+c. 34
+
+d. 27
+Feedback
+Your answer is correct.
+The correct answer is: 34
+Question 3
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode? 
+Integer a, b, c 
+Set a = 6, b = 10, c = 14 
+if((b + c) < (c - b) OR b>c) 
+    b = (c + a) + b 
+    c = 10 + b 
+Else 
+    c = (a + a) + a 
+    c = (c + c) ^ b 
+End if 
+Print a + b + c 
+[Note- ^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bits of 
+its second operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. Otherwise, 
+the corresponding result bit is set to 0.]
+Select one:
+
+a. 62
+
+b. 58
+
+c. 72
+
+d. 69
+Feedback
+Your answer is correct.
+The correct answer is: 62
+Question 4
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b
+Set b = 320
+for (a = 1 to 3)
+    b = b / 10
+    a = a + b + 5
+end for
+Print a
+Select one:
+
+a. 26
+
+b. 328
+
+c. 39
+
+d. 13
+Feedback
+Your answer is correct.
+The correct answer is: 39
+Question 5
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 2, b = 7, c = 5
+for(each c from 3 to 6)
+    b = c + b
+    if(b + c – a) < (a + b))
+        b = 6 + a
+    End if
+End for
+Print a + b
+Select one:
+
+a. 18
+
+b. 25
+
+c. 31
+
+d. 36
+Feedback
+Your answer is correct.
+The correct answer is: 25
+Question 6
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the out of the following pseudocode?
+Integer p, q, r
+Set p = 3, q = 8, r = 4
+for(each r from 5 to 9)
+    q = (q + q) ^  r
+    if(q<p OR (q+r) < (p-q))
+        q=(q + q) + q
+    End if
+End for 
+Print p + q
+[Note is the bitwise exclusive OR operator that compares each bit of its first corresponding bit of its second operand. 
+If one bit is 0 and the other bit is 1, t result bit is set to 1. Otherwise, the corresponding result bit is set to 0]
+Select one:
+
+a. 358
+
+b. 362
+
+c. 360
+
+d. 368
+Feedback
+Your answer is incorrect.
+The correct answer is: 360
+Question 7
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer pp, qq, rr
+Set pp=3, qq=11, rr=15
+for(each rr from 4 to 8)
+    qq = rr ^ qq 
+End for
+for(each rr from 2 to 4)
+    qq = rr + qq
+End for
+Print pp + qq
+[Note- ^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bits of its second operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 10
+
+b. 34
+
+c. 21
+
+d. 15
+Feedback
+Your answer is incorrect.
+The correct answer is: 15
+Question 8
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer pp, qq, rr
+Set pp = 3, qq = 10, rr = 13
+for(each rr from 5 to 6)
+    pp = (9 + 11) + rr 
+End for
+for(each rr from 2 to 3)
+    pp = (pp & qq) + pp
+End for
+Print pp + qq
+[Note- &: bitwise AND-The bitwise AND operator (&) compares each bit of the first opera corresponding bit of the second operand. 
+If both bits are 1, the corresponding result bit i Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 52
+
+b. 041
+
+c. 46
+
+d. 054
+Feedback
+Your answer is incorrect.
+The correct answer is: 46
+Question 9
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer p, q, r
+Set p = 0, q = 6, r = 5
+if((1 + r + p) > (p + q))
+    p = 5 + r 
+    p = (9 + 12) + q
+End if
+print p + q + r
+Select one:
+
+a. 11
+
+b. 5
+
+c. 12
+
+d. 29
+Feedback
+Your answer is incorrect.
+The correct answer is: 11
+Question 10
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer pp, qq, rr
+Set pp = 6, qq = 4, rr = 4
+if((5 - pp + qq) > (qq - rr))
+    rr = (rr + qq) + pp
+End if
+pp = (7 + 2) + pp
+Print pp + qq + rr
+Select one:
+
+a. 23
+
+b. 36
+
+c. 36
+
+d. 33
+Feedback
+Your answer is incorrect.
+The correct answer is: 23
+Question 11
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer p, q, r 
+Set p = 3, q = 3, r = 6
+for(each r from 5 to 9)
+    q = (r + p) & p
+End for
+for(each r from 3 to 4)
+    p = (p + 2) + q 
+    q = (p + 12) + q
+End for
+Print p + q
+[Note- &: bitwise AND operator (&)compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 77
+
+b. 94
+
+c. 81
+
+d. 63
+Feedback
+Your answer is incorrect.
+The correct answer is: 77
+Question 12
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for a = 5, b = 10?
+int c  = a - b
+for i = 1 to 4 
+    c = c - a
+    for j = 3 to i
+        a = a + i
+        c = c + a + j
+    end for
+end for
+Print c
+Select one:
+
+a. None of the mentioned options
+
+b. 18
+
+c. 92
+
+d. 393
+Feedback
+Your answer is correct.
+The correct answer is: 18
+Question 13
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for a = 2?
+Integer fun(int a)
+If(a < 1)
+    return
+else
+    Print a 
+    fun(a-1) 
+    print a
+end if
+Select one:
+
+a. 2 1 1 2
+
+b. 1 2
+
+c. 3 2 1 1 2 3
+
+d. 2 1
+Feedback
+Your answer is incorrect.
+The correct answer is: 2 1 1 2
+Question 14
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 0, b = 2, c = 6
+for(each c from 3 to 5)
+    b = c + c
+    a = (5 + 3) & c
+    b = c + a
+End for
+b = 4 + c
+Print a + b
+[Note- &: bitwise AND – The bitwise AND operator (&) compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 23
+
+b. 13
+
+c. 7
+
+d. 10
+Feedback
+Your answer is incorrect.
+The correct answer is: 10
+Question 15
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode? 
+Integer p, q, r 
+Set p = 3, q = 3, r = 4 
+for(each r from 4 to 7) 
+    q = 3 + r 
+End for
+Print p + q
+Select one:
+
+a. 23
+
+b. 8
+
+c. 20
+
+d. 13
+Feedback
+Your answer is incorrect.
+The correct answer is: 13
+Question 16
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode? 
+Integer p, q, r 
+Set p = 1, q = 5, r = 9 
+q = q + p 
+if((q + p) > (r - q)) 
+    p = 5 + q 
+End if
+Print p + q + r
+Select one:
+
+a. 31
+
+b. 24
+
+c. 37
+
+d. 26
+Feedback
+Your answer is incorrect.
+The correct answer is: 26
+Question 17
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode? 
+Integer p, q, r 
+Set p = 4, q =  10, r = 6 
+for(each r from 3 to 4) 
+    p = (p + p) + p 
+End for
+for(each r from 3 to 4) 
+    q = 7 + p 
+End for 
+Print p + q
+Select one:
+
+a. 79
+
+b. 80
+
+c. 76
+
+d. 87
+Feedback
+Your answer is incorrect.
+The correct answer is: 79
+Question 18
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode? 
+Integer a, b, c 
+Set a = 9, b = 6, c = 9 
+c = (8 + 4) + b 
+c = 11 + b 
+if (a<b OR (7+8) < (6 - a)) 
+    b = (9 + 4) ^ b 
+    c = a + c 
+End if 
+Print a + b + c 
+[Note- ^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bits of its second operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 32
+
+b. 37
+
+c. 27
+
+d. 50
+Feedback
+Your answer is incorrect.
+The correct answer is: 32
+Question 19
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a = 12, b = 20
+a = a * 2 
+b=b+1
+If (((a/3) MOD 2) EQUALS 0)
+    if (b<a)
+        Print "Inside second if"
+         goto L1
+    Print "Inside first if"
+Print "Outside if"
+L1: b=15
+Select one:
+
+a. Inside second if
+
+b. Inside first if
+
+c. Inside second if Outside if
+
+d. Outside if
+Feedback
+Your answer is incorrect.
+The correct answer is: Inside second if
+Question 20
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer p, q, r
+Set p = 9, q = 2, r = 10
+r = (p+ 8) + r 
+if(p < r)
+      q= (r + p) + q
+End if
+Print p + q + r
+Select one:
+
+a. 82
+
+b. 74
+
+c. 69
+
+d. 76
+Feedback
+Your answer is correct.
+The correct answer is: 74
+Question 21
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Start
+Declare integer i, j
+Set i=0, j=0
+label1: while (i< 3)
+        i=i+1
+        while (j < 3)
+            print "A" 
+                 Go to label1
+        End while
+    End while
+Select one:
+
+a. It will print A one time
+
+b. It will result in an infinite loop
+
+c. It will print A three times
+
+d. It will print A two times
+Feedback
+Your answer is incorrect.
+The correct answer is: It will print A three times
+Question 22
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 9, b = 10, c = 9
+ if(a>b OR (c+a) < (b-c))
+          b=(12+10)+a
+          b=c+b
+else
+      c=c+c
+End if
+Print a + b + c
+Select one:
+
+a. 37
+
+b. 41
+
+c. 34
+
+d. 54
+Feedback
+Your answer is incorrect.
+The correct answer is: 37
+Question 23
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo-code statements?
+integer a = 984, b, c, d =10
+print remainder(a,d) // remainder when a is divided by d
+a = a/d
+print remainder(a,d) // remainder when a is divided by d
+Select one:
+
+a. 44
+
+b. Error
+
+c. 48
+
+d. 84
+Feedback
+Your answer is incorrect.
+The correct answer is: 48
+Question 24
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo-code statements?
+integer a = 456, b, c, d =10
+b = a/d
+c = a - b
+print c
+Select one:
+
+a. 411.4
+
+b. 411
+
+c. 410.4
+
+d. 410
+Feedback
+Your answer is correct.
+The correct answer is: 411
+Question 25
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo-code statements?
+integer a = 984, b=10
+//float is a data-type to store real numbers.
+float c
+c = a / b
+Select one:
+
+a. 98.4
+
+b. 984
+
+c. Error
+
+d. 98.0
+Feedback
+Your answer is incorrect.
+The correct answer is: 98.0
