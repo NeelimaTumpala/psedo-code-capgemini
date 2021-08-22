@@ -1,0 +1,703 @@
+Question 1
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Set length = 5
+Set breadth = 7
+Set area = length * breadth
+Set perimeter = 2 * (length + breadth)
+if area > perimeter then
+    display "Area is greater than perimeter."
+else
+    display "Area is lesser than perimeter."
+end if
+Select one:
+
+a. Area is lesser than perimeter
+
+b. No output
+
+c. Area is greater than perimeter
+Feedback
+Your answer is correct.
+The correct answer is: Area is greater than perimeter
+Question 2
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set b = 10, a = 1
+for(each c form 1 to 2)
+    a = (a+c) * c
+    b = b - c
+End for
+if (0)
+    b = a - 1
+    a = a - 1
+    a = b + 1
+Else
+    a = b + 1
+    b = a - 1
+    a = a - 1
+End if
+Print a + b + c
+Select one:
+
+a. 17
+
+b. 20
+
+c. 25
+
+d. 10
+Feedback
+Your answer is correct.
+The correct answer is: 17
+Question 3
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 2, b = 1
+for(each c from 2 to 4)
+    a = b + 1
+    b = b + a
+    if(c + 1 > 2)
+        Jump out of the loop
+    End if
+    a = a + 1
+End for
+Print a + b
+Select one:
+
+a. 3
+
+b. 5
+
+c. 16
+
+d. 10
+Feedback
+Your answer is correct.
+The correct answer is: 5
+Question 4
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the output of this code?
+a = 5
+b = 10
+n = 1
+Repeat until(n < 5):
+    c = a + b
+    a = b
+    b = c
+    print(c)
+    n = n + 1
+Select one:
+
+a. 15 25 40 65
+
+b. 15 30 60 120
+
+c. 15 30 45 60
+
+d. 15 20 25 30
+Feedback
+Your answer is correct.
+The correct answer is: 15 25 40 65
+Question 5
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following series will be printed by the given pseudocode?
+Integer i, j, k, n
+Set j = 1, k = 1
+for(each i from 1 to 5)
+    print k
+    j=j+1
+    k=k+j
+end for
+Select one:
+
+a. 1 2 3 4 5
+
+b. 1 1 2 3 5
+
+c. 1 3 6 10 15
+
+d. 2 4 6 8 10
+Feedback
+Your answer is correct.
+The correct answer is: 1 3 6 10 15
+Question 6
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for a=12 and b=-26?
+start
+take 2 variables a and b
+check if a is less than 0 set a = -a
+check if b is less than 0 set b = -b
+repeat while a is not equal to b
+if a > b set a = a-b
+else set b = b - a
+print a
+Stop
+
+Select one:
+
+a. 6
+
+b. 2
+
+c. 4
+
+d. 12
+Feedback
+Your answer is incorrect.
+The correct answer is: 2
+Question 7
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 3, b = 2
+if(b - 1)
+    for(each c from 1 to 3)
+        a = a - 1
+        Continue
+        a = a + 1
+        a = a - 1
+        a = a + 2
+    End for
+    for(each c from 1 to 3)
+        a = a + b
+        Continue
+        a = a + 1
+        a = a - 3
+        a = a + 2
+    End for
+End if
+Print a + b
+Note- Continue: When a continue statement is encountered inside a loop, control jumps to the beginning of the loop for next iteration, skipping the execution of statements inside the body of the loop for the current iteration.
+If(x) gets executed if the value inside if(), i.e., x is not zero.]
+Select one:
+
+a. 5
+
+b. 4
+
+c. 1
+
+d. 8
+Feedback
+Your answer is correct.
+The correct answer is: 8
+Question 8
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b
+Set b = 320
+for (a = 1 to 3)
+    b = b / 10
+    a = a + b + 5
+end for
+Print a
+Select one:
+
+a. 39
+
+b. 328
+
+c. 13
+
+d. 26
+Feedback
+Your answer is correct.
+The correct answer is: 39
+Question 9
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set b = 1, c = 1
+for(each a from 1 to 3)
+    b = b >> 1
+    c = c << b
+End for
+Print b + c
+[Note: >> - Bitwise right shift operator, it takes two numbers, right shifts the bits of the first operand, the second operand decides the number of places to shift, << - is left shift operator, it takes two numbers, left shifts the bits of the first operand, the second operand decides the number of places to shift]
+
+Select one:
+
+a. 0
+
+b. 2
+
+c. None of the mentioned options
+
+d. 1
+Feedback
+Your answer is correct.
+The correct answer is: 1
+Question 10
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode? 
+Integer p, q, r 
+Set p = 3, q = 3, r = 4 
+for(each r from 4 to 7) 
+    q = 3 + r 
+End for
+Print p + q
+Select one:
+
+a. 13
+
+b. 20
+
+c. 23
+
+d. 8
+Feedback
+Your answer is correct.
+The correct answer is: 13
+Question 11
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+How many times the following pseudocode will print "btech"?
+Integer a,b
+for(each a from 0 to 3)
+    for(each b from 0 to a)
+        print "btech"
+    end for
+end for
+Select one:
+
+a. 8 times
+
+b. 9 times
+
+c. 11 times
+
+d. 10 times
+Feedback
+Your answer is correct.
+The correct answer is: 10 times
+Question 12
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Integer a, b, v, c
+Set a = 9, v = 27
+While (v > 5)
+	a = a + v
+	c = a – 10
+	while (c >7)
+		b = v + c
+		c = c – 60
+	end while
+	v = v/3
+end while
+print a, c, v
+
+
+Select one:
+
+a. 89 -41 4
+
+b. 45 -25 3
+
+c. None of the mentioned options
+
+d. 45 25 3
+Feedback
+Your answer is correct.
+The correct answer is: 45 -25 3
+Question 13
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c, d
+set d = 6
+for(each a from 1 to 2)
+    for(each b from a to 2)
+        for(each c from b to 2)
+            print d
+        end for
+    end for
+end for
+
+Select one:
+
+a. 6 6 6
+
+b. 6 6
+
+c. 6 6 6 6 6 6
+
+d. 6 6 6 6
+Feedback
+Your answer is correct.
+The correct answer is: 6 6 6 6
+Question 14
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Predict the output of the following pseudo-code. Let's consider
+input is 3
+Integer i, i, k,n
+Repeat for i:=1 to n
+    Repeat for k:=i to less than n
+    print space
+    Repeat for j:=1 to 2*i-1
+    print star
+End loop
+Select one:
+
+a. *
+ **
+***
+
+b. ***
+ **
+  *
+
+c. *****
+ ***
+  *
+
+d. *
+ ***
+*****
+Feedback
+Your answer is correct.
+The correct answer is: *
+ ***
+*****
+Question 15
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What would be the output of the following pseudocode?
+Integer i, j, k
+Set k = 8
+for(each i from 1 to 1)
+    for(each j from the value of i to 1)
+        print k+1
+    end for
+end for
+Select one:
+
+a. 2
+
+b. 7
+
+c. 8
+
+d. 9
+Feedback
+Your answer is correct.
+The correct answer is: 9
+Question 16
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following algorithm?
+Start
+Declare a, I and b
+for I =0 to 4
+    Increment a by 1
+    if I = 3 then
+        print hello
+        get out of the loop
+    End if
+End for
+print a
+Select one:
+
+a. 4
+
+b. hello4
+
+c. 2
+
+d. hello
+Feedback
+Your answer is correct.
+The correct answer is: hello4
+Question 17
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer n, beg, end
+Set beg = 5, end = 7, sum = 0
+if(beg > end)
+    Print sum + 1
+else
+    for(n = end; n >= beg; n=n-1)
+                sum = sum + n
+                n = n - 1
+    End for loop
+Print n
+Select one:
+
+a. 3
+
+b. 9
+
+c. 7
+
+d. 6
+Feedback
+Your answer is correct.
+The correct answer is: 3
+Question 18
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Set integer res = 5
+if (res++ > 4 and (res++ not equals 5) and res++ > 6) the do
+    display res
+else
+    display res
+end-if
+Select one:
+
+a. 5
+
+b. 6
+
+c. 8
+
+d. 7
+Feedback
+Your answer is incorrect.
+The correct answer is: 8
+Question 19
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a,b,c
+Set a= 8,b= 10,c= 6
+if(a>c AND (b+c) > a)
+	print a
+end if
+if(c>b OR (a+c) > b)
+	print b
+end if
+if((b+c) mod a equals 0)
+	print c
+end if
+Select one:
+
+a. 0
+
+b. 4
+
+c. 6
+
+d. 8 10 6
+Feedback
+Your answer is correct.
+The correct answer is: 8 10 6
+Question 20
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for a = 1, b = 2?
+Integer funn(Integer a, Integer b)
+    a = a + b
+    if(a > b)
+        return a + b + b + a + b
+    Else
+        a = a - b
+        return a + b + b + a + b
+    End if
+End function funn()
+Select one:
+
+a. 1
+
+b. 12
+
+c. 8
+
+d. 9
+Feedback
+Your answer is incorrect.
+The correct answer is: 12
+Question 21
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+int i=5, j=7
+if(i+j>5)
+	j=i+2
+	if (j<5)
+		print i
+	else
+		print j
+else
+	print i+1
+
+
+Select one:
+
+a. 5
+
+b. 7
+
+c. 6
+
+d. 12
+Feedback
+Your answer is incorrect.
+The correct answer is: 7
+Question 22
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Integer a,b,c
+Set a=5, b=3, c=12
+a=5+a 
+if (4 + 4) ^ c
+	a=6&c
+end if
+print a+b+c
+
+
+Select one:
+
+a. 35
+
+b. 4
+
+c. 19
+
+d. 25
+Feedback
+Your answer is incorrect.
+The correct answer is: 19
+Question 23
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a = 12, b = 20
+a = a * 2 
+b=b+1
+If (((a/3) MOD 2) EQUALS 0)
+    if (b<a)
+        Print "Inside second if"
+         goto L1
+    Print "Inside first if"
+Print "Outside if"
+L1: b=15
+Select one:
+
+a. Inside second if
+
+b. Inside first if
+
+c. Outside if
+
+d. Inside second if Outside if
+Feedback
+Your answer is incorrect.
+The correct answer is: Inside second if
+Question 24
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer p, q, r
+Set p = 9, q = 2, r = 10
+r = (p+ 8) + r 
+if(p < r)
+      q= (r + p) + q
+End if
+Print p + q + r
+Select one:
+
+a. 82
+
+b. 74
+
+c. 69
+
+d. 76
+Feedback
+Your answer is incorrect.
+The correct answer is: 74
+Question 25
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for a = 5, b = 3?
+Integer funn(Integer a, Integer b)
+    if((b mod a > a mod b) || (a ^ b >  a))
+        a = a ^ b
+        if(a)
+            b = 1
+            return 4 ^ 5 ^ 6
+        End if
+        return 1 ^ 2 ^ 3
+    End if
+    return a + b
+End function funn()
+[Note: mod finds the remainder after the division of one number by another. for example, the "5 mod 2" would evaluate to 1 because 5 divided by 2 leaves a quotient of 2 and a remainder of 1
+^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bits of its second operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+||: Logical OR - The logical OR operator (||) returns the Boolean value TRUE (or 1) if either or both operands are true and return FALSE (or 0) otherwise.
+If(x) gets executed if the value inside if(), i.e., x is not zero.]
+Select one:
+
+a. 7
+
+b. 3
+
+c. 16
+
+d. 9
+Feedback
+Your answer is incorrect.
+The correct answer is: 7
