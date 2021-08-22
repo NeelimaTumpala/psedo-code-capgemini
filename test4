@@ -1,0 +1,686 @@
+Question 1
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b
+Set a = 12, b = 5
+if ((a ^b) && (a&b))
+    a = b
+End if
+Print a + b
+Select one:
+
+a. 17
+
+b. 11
+
+c. 9
+
+d. 10
+Feedback
+Your answer is correct.
+The correct answer is: 10
+Question 2
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+How many times the following pseudocode will print “btech”?
+Integer a, b
+for(each a from 0 to 3)
+    for(each b from 0 to a)
+        print “btech”
+    end for
+end for
+Select one:
+
+a. 8 times
+
+b. 9 times
+
+c. 11 times
+
+d. 10 times
+Feedback
+Your answer is correct.
+The correct answer is: 10 times
+Question 3
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set b = 10, a = 1
+for(each c form 1 to 2)
+    a = (a+c) * c
+    b = b - c
+End for
+if (0)
+    b = a - 1
+    a = a - 1
+    a = b + 1
+Else
+    a = b + 1
+    b = a - 1
+    a = a - 1
+End if
+Print a + b + c
+Select one:
+
+a. 17
+
+b. 25
+
+c. 20
+
+d. 10
+Feedback
+Your answer is correct.
+The correct answer is: 17
+Question 4
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b
+Set a = 3, b = 5
+if (a & (b + 1))
+    a = a + a
+End if
+Print a + b
+Select one:
+
+a. 11
+
+b. 30
+
+c. 7
+
+d. 8
+Feedback
+Your answer is correct.
+The correct answer is: 11
+Question 5
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set b = 40, a = 20, c = 20
+if (c > (c + a))
+     b = 0
+Else
+    a = a + 2
+    c = a + 2
+End if
+if (c > (b + a))
+    b = 0
+Else
+    a = a + 2
+    c = a + 2
+End if
+Print a + b + c
+Select one:
+
+a. 90
+
+b. 60
+
+c. 30
+
+d. 39
+Feedback
+Your answer is correct.
+The correct answer is: 90
+Question 6
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the output of the following pseudocode?
+Integer b = 10, a = 1
+if(0)
+    a = a - 1
+Else
+    a = b + 1
+    b = a - 1
+    a = a - 1
+End if
+Print a
+[Note: If(x) gets executed if the value inside if(), i.e., x is not zero]
+Select one:
+
+a. 5
+
+b. 11
+
+c. 3
+
+d. 10
+Feedback
+Your answer is correct.
+The correct answer is: 10
+Question 7
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the output of the following pseudocode?
+Integer a, b, c
+Set b = 2, a = 1
+for(each c from 1 to 2)
+    a = a*c
+    b = b*c
+End for
+if ((1 & 4) || (1 ^ 1) || (2 ^ 3))
+    b = a - 1
+    a = a - 1
+Else
+    a = a ^ 1
+    b = b ^ 1
+End if
+print a + b + c
+Select one:
+
+a. 7
+
+b. 1
+
+c. 5
+
+d. 6
+Feedback
+Your answer is correct.
+The correct answer is: 5
+Question 8
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following series will be printed by the given pseudocode?
+Integer i, j, k, n
+Set j = 1, k = 1
+for(each i from 1 to 5)
+    print k
+    j=j+1
+    k=k+j
+end for
+Select one:
+
+a. 1 3 6 10 15
+
+b. 2 4 6 8 10
+
+c. 1 2 3 4 5
+
+d. 1 1 2 3 5
+Feedback
+Your answer is correct.
+The correct answer is: 1 3 6 10 15
+Question 9
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a
+Set a = 10
+while(a NOT EQUALS a/2)
+    print “engineering”
+    a = a - 1
+    if(a EQUALS 3)
+        Print “engineering”
+    end if
+    jump out of the loop
+    Print “engineering”
+end while
+if(a EQUALS 2)
+    print “23”
+else
+    print “engineering”
+end if
+Select one:
+
+a. It will print engineering 3 times
+
+b. It will print engineering 2 times
+
+c. It will print engineering 4 times
+
+d. It will print 23
+Feedback
+Your answer is correct.
+The correct answer is: It will print engineering 2 times
+Question 10
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for a = 5?
+Integer fun(Integer a)
+    if (a > 0)
+        return fun(a - 1)
+    Else
+        return a + 10
+    End if
+End function fun()
+Select one:
+
+a. 9
+
+b. 10
+
+c. 7
+
+d. 0
+Feedback
+Your answer is correct.
+The correct answer is: 10
+Question 11
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a
+String str1
+Set str1 = “momo”
+for (each a from 1 to 2)
+    str1 = str1 + “mm”
+End for
+Print (stringLength(str1))
+[Note: stringLength(): stringLength() functions counts the number of characters]
+Select one:
+
+a. 7
+
+b. 4
+
+c. 6
+
+d. 8
+Feedback
+Your answer is correct.
+The correct answer is: 8
+Question 12
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for a = 6?
+Integer fun(integer a)
+    if(a EQUALS 0)
+        return a + 9
+    else
+        return fun(a-1)
+End function fun()
+Select one:
+
+a. 1
+
+b. 0
+
+c. 6
+
+d. 9
+Feedback
+Your answer is correct.
+The correct answer is: 9
+Question 13
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+For which of the following values of ‘a’, the statement under ‘if’ will execute?
+Integer a
+if(a mod 10 >= 5 OR a mod 10 equals 3 AND a/100 equals 100)
+    print a mod 10 + a/100
+else
+    print a
+end if
+[Note: MOD finds the remainder after the division of one number by another. For example, 5%2 leaves a quotient of 2 and a remainder of 1
+Logical AND - The logical AND operator (&&) returns Boolean value true(or 1) if both operands are true, returns false(or 0) otherwise
+Logical OR - The logical OR operator (!!) returns Boolean value true(or 1) if at least one operand is true, returns false(or 0) otherwise.]
+Select one:
+
+a. 111
+
+b. 123
+
+c. 555
+
+d. 121
+Feedback
+Your answer is incorrect.
+The correct answer is: 555
+Question 14
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 108, b = 2, c = 3
+if((a MOD 9) EQUALS 0)
+    b = b + (a MOD 2)
+    Print b
+Else
+    c = c + (a MOD 7)
+    Print c
+end if
+[Note: MOD finds the remainder after the division of one number by another. For example, 5%2 leaves a quotient of 2 and a remainder of 1]
+Select one:
+
+a. 7
+
+b. 2
+
+c. 1
+
+d. 3
+Feedback
+Your answer is correct.
+The correct answer is: 2
+Question 15
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c, d
+set d = 6
+for(each a from 1 to 2)
+    for(each b from a to 2)
+        for(each c from b to 2)
+            print d
+        end for
+    end for
+end for
+
+Select one:
+
+a. 6 6 6 6
+
+b. 6 6
+
+c. 6 6 6 6 6 6
+
+d. 6 6 6
+Feedback
+Your answer is incorrect.
+The correct answer is: 6 6 6 6
+Question 16
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set b = 5, a = 2, c = 2
+if(b>a && a>c && c>b)
+    b = a + 1
+Else
+    a = b + 1
+End if
+Print a + b + c
+Select one:
+
+a. 13
+
+b. 5
+
+c. 26
+
+d. 2
+Feedback
+Your answer is correct.
+The correct answer is: 13
+Question 17
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b
+Set a = 15, b = 7
+a = a mod (a - 3)
+b = b mod (b – 3)
+a = a mod 1
+b = b mod 1
+Print a + b
+Select one:
+
+a. 0
+
+b. 2
+
+c. 7
+
+d. 15
+Feedback
+Your answer is correct.
+The correct answer is: 0
+Question 18
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What would be the output of the following pseudocode?
+Integer i, j, k
+Set k = 8
+for(each i from 1 to 1)
+    for(each j from the value of i to 1)
+        print k+1
+    end for
+end for
+Select one:
+
+a. 8
+
+b. 7
+
+c. 9
+
+d. 2
+Feedback
+Your answer is correct.
+The correct answer is: 9
+Question 19
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What would be the output of the following pseudocode?
+Integer a, b, c
+Set a = 8, b = 51, c = 2
+c = (a ^ c) ^ (a)
+b = b mod 4
+Print a + b + c
+Select one:
+
+a. 13
+
+b. 17
+
+c. 26
+
+d. 16
+Feedback
+Your answer is correct.
+The correct answer is: 13
+Question 20
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What would be the output of the following pseudocode?
+Integer a
+String str1
+Set str1 = “goose”
+a = stringLength(str1)
+Print (a ^ 1)
+Select one:
+
+a. 5
+
+b. 3
+
+c. 4
+
+d. 0
+Feedback
+Your answer is incorrect.
+The correct answer is: 4
+Question 21
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer i
+Set i = 3
+do
+    print i + 3
+    i = i - 1
+while(i not equals 0)
+end while
+Select one:
+
+a. 6 5 4
+
+b. 6 6 6
+
+c. 5 5 5
+
+d. 6 5 6
+Feedback
+Your answer is incorrect.
+The correct answer is: 6 5 4
+Question 22
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Input is 4
+Integer i, j, n
+Repeat for i: =1 to n
+    Repeat for j: =1 to i
+        print i
+End loop
+Select one:
+
+a. 1
+12
+123
+1234
+
+b. i
+ii
+iii
+iiii
+
+c. iiii
+iii
+ii
+i
+
+d. 1
+22
+333
+4444
+Feedback
+Your answer is correct.
+The correct answer is: 1
+22
+333
+4444
+Question 23
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo-code?
+      Integer a, b
+      Set a = 6, b = 8
+      a = a + b
+      b = a - b
+      a = a - b
+      a = a + 6      
+      print a, b
+Select one:
+
+a. 8 6
+
+b. 6 14
+
+c. 6 8
+
+d. 14 6
+Feedback
+Your answer is incorrect.
+The correct answer is: 14 6
+Question 24
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Predict the output of the following pseudo-code. Let's consider
+input is 3
+Integer i, i, k,n
+Repeat for i:=1 to n
+    Repeat for k:=i to less than n
+    print space
+    Repeat for j:=1 to 2*i-1
+    print star
+End loop
+Select one:
+
+a. *****
+ ***
+  *
+
+b. *
+ ***
+*****
+
+c. ***
+ **
+  *
+
+d. *
+ **
+***
+Feedback
+Your answer is correct.
+The correct answer is: *
+ ***
+*****
+Question 25
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo-code statements:
+integer a = 984
+//float is a data-type to store rational numbers.
+float b= 10, c
+c = a / b
+print c
+Select one:
+
+a. 984
+
+b. 98
+
+c. Error
+
+d. 98.4
+Feedback
+Your answer is incorrect.
+The correct answer is: 98.4
