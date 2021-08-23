@@ -1,0 +1,661 @@
+What will be the output of the following pseudocode?
+Integer a, b
+Set a = 10
+Set b = a + a
+if (b > a && 0)
+    b = b - a
+    b = b mod a
+End if
+if (b > a || 0)
+    b = b + a
+    b = b + a
+End if
+Print b
+[Note- mod finds the remainder after the division of one number by another. For example, the "5 mod 2" would evaluate to 1 because 5 divided by 2 leaves a quotient of 2 and a remainder of 1]
+[Note-&&: Logical AND - The logical AND operator (&&) returns the Boolean value true(or 1) if both operands are true and return false (or 0) otherwise
+&: bitwise AND - The bitwise AND operator (&) compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0]
+Select one:
+
+a. 40
+
+b. 50
+
+c. 10
+
+d. 20
+Feedback
+Your answer is incorrect.
+The correct answer is: 40
+Question 2
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+int fun ( int n)
+	if (n Equals 4)
+		return n
+	else
+		return n*fun (n+1) 
+
+
+Select one:
+
+a. 16
+
+b. 4
+
+c. 2
+
+d. 8
+Feedback
+Your answer is incorrect.
+The correct answer is: 16
+Question 3
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will happen when the following code is executed?
+Function hello()
+    hello()
+end
+Function main()
+    hello()
+end
+Select one:
+
+a. Code will execute successfully and display nothing
+
+b. Code will execute and garbage value will be displayed
+
+c. Code will run until the stack overflows
+
+d. Error
+Feedback
+Your answer is incorrect.
+The correct answer is: Code will run until the stack overflows
+Question 4
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for a = 6?
+Integer fun(integer a)
+    if(a EQUALS 0)
+        return a + 9
+    else
+        return fun(a-1)
+End function fun()
+Select one:
+
+a. 6
+
+b. 0
+
+c. 1
+
+d. 9
+Feedback
+Your answer is incorrect.
+The correct answer is: 9
+Question 5
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for p=3, q=4?
+int fun1(int p, int p)
+    if(q EQUALS 0)
+        return 0
+    if(q mod 2 EQUALS 0)
+        return fun1( p+p, q/2)
+    return fun1(p+p, q/2)+p
+
+Select one:
+
+a. 4
+
+b. 12
+
+c. 7
+
+d. 8
+Feedback
+Your answer is incorrect.
+The correct answer is: 12
+Question 6
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will the output of the following pseudocode for i=140?
+integer fun(int i)
+if((i%2)!=0)
+    return i;
+else
+    return fun(fun(i=1));
+End function 
+fun()
+Select one:
+
+a. 4
+
+b. 2
+
+c. 1
+
+d. 3
+Feedback
+Your answer is incorrect.
+The correct answer is: 1
+Question 7
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for a = 5?
+Integer fun(Integer a)
+    if (a > 0)
+        return fun(a - 1)
+    Else
+        return a + 10
+    End if
+End function fun()
+Select one:
+
+a. 10
+
+b. 9
+
+c. 7
+
+d. 0
+Feedback
+Your answer is incorrect.
+The correct answer is: 10
+Question 8
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo code for x=3 and y=4?
+integer fun(int x, int y)
+if(x>0)
+    fun(x-1,y+1);
+End if
+Print y
+End function 
+fun()
+Select one:
+
+a. 2 0 3 4
+
+b. 8 5 4 2
+
+c. 7 6 5 4
+
+d. 5 2 1 4
+Feedback
+Your answer is incorrect.
+The correct answer is: 7 6 5 4
+Question 9
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+doSomthing (integer a, integer b)
+If (b EQUALS 1)
+	return 0
+else
+	return a + doSomething(a, b-1)
+End function doSomething()
+
+
+Select one:
+
+a. 2
+
+b. 3
+
+c. 1
+
+d. 4
+Feedback
+Your answer is incorrect.
+The correct answer is: 2
+Question 10
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Integer f (integer n)
+	Static integer r = 0
+	If (n<=0)
+		Return 1
+	End if
+	If (n > 3)
+		r=n 
+		return f(n-2) +2
+	end if
+	return f(n-1) + 2
+end function f()
+
+
+Select one:
+
+a. 35
+
+b. 17
+
+c. 12
+
+d. 21
+Feedback
+Your answer is incorrect.
+The correct answer is: 17
+Question 11
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+1.int fun1( int num)
+2.	static int a=0
+3.	If (num > 0)
+4.		a = a + 1
+5.	        fun(num/10)
+6.	 else
+7.	        Return a 
+Note: static variables have a property of preserving their value even after they are out of their scope
+
+
+Select one:
+
+a. 8
+
+b. 431
+
+c. 2
+
+d. 3
+Feedback
+Your answer is incorrect.
+The correct answer is: 3
+Question 12
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 4, b = 9, c = 9
+if(b & (c >> 1))
+    a = a + 1
+End if
+Print a + b + c
+[Note: >> - Bitwise right shift operator, it takes two numbers, right shifts the bits of the first operand, and the second operand decides the number of places to shift.
+&: bitwise AND - The bitwise AND operator (&) compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+If(x) gets executed if the value inside if(), i.e., x is not zero.]
+Select one:
+
+a. 25
+
+b. 5
+
+c. 41
+
+d. 22
+Feedback
+Your answer is incorrect.
+The correct answer is: 22
+Question 13
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 2, b = 40, c = 0
+b = c + 2
+if(a)
+    c = 1
+End if
+Print a - b + c
+[Note: If(x) gets executed if the value inside if(), i.e., x is not zero.]
+Select one:
+
+a. 1
+
+b. -2
+
+c. 4
+
+d. 11
+Feedback
+Your answer is incorrect.
+The correct answer is: 1
+Question 14
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 108, b = 2, c = 3
+if((a MOD 9) EQUALS 0)
+    b = b + (a MOD 2)
+    Print b
+Else
+    c = c + (a MOD 7)
+    Print c
+end if
+[Note: MOD finds the remainder after the division of one number by another. For example, 5%2 leaves a quotient of 2 and a remainder of 1]
+Select one:
+
+a. 1
+
+b. 2
+
+c. 3
+
+d. 7
+Feedback
+Your answer is incorrect.
+The correct answer is: 2
+Question 15
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Set p = 5, q = 10, r = 14
+If (r > p OR (7-7) > (r-7))
+	q=p
+else
+	p=12
+end if
+print p + q + r
+
+
+Select one:
+
+a. 26
+
+b. 24
+
+c. 35
+
+d. 22
+Feedback
+Your answer is incorrect.
+The correct answer is: 24
+Question 16
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+int i=5, j=7
+if(i+j>5)
+	j=i+2
+	if (j<5)
+		print i
+	else
+		print j
+else
+	print i+1
+
+
+Select one:
+
+a. 6
+
+b. 7
+
+c. 5
+
+d. 12
+Feedback
+Your answer is incorrect.
+The correct answer is: 7
+Question 17
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer pp, qq, rr
+Set pp = 6, qq = 4, rr = 4
+if((5 - pp + qq) > (qq - rr))
+    rr = (rr + qq) + pp
+End if
+pp = (7 + 2) + pp
+Print pp + qq + rr
+Select one:
+
+a. 33
+
+b. 36
+
+c. 36
+
+d. 23
+Feedback
+Your answer is incorrect.
+The correct answer is: 23
+Question 18
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+input m=9,n=6
+m=m+1
+n=n-1
+m=m+n
+if(m>n)
+    print m
+else
+    print n
+Select one:
+
+a. 10
+
+b. 6
+
+c. 15
+
+d. 5
+Feedback
+Your answer is incorrect.
+The correct answer is: 15
+Question 19
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 108, b = 2, c = 3
+if((a MOD 9) EQUALS 0)
+    b = b + (a MOD 2)
+    Print b
+Else
+    c = c + (a MOD 7)
+    Print c
+end if
+[Note: MOD finds the remainder after the division of one number by another. For example, 5%2 leaves a quotient of 2 and a remainder of 1]
+Select one:
+
+a. 3
+
+b. 1
+
+c. 2
+
+d. 7
+Feedback
+Your answer is incorrect.
+The correct answer is: 2
+Question 20
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output when following program is executed?
+Set copper_percentage = 100
+Set UNS = 66099
+if(copper_percentage < 90 and UNS > 70000 and UNS < 79999) then
+    display "Cast"
+end-if
+if(copper_percentage >= 90 and UNS > 64700 and UNS < 70000) then
+    display "Wrought"
+end-if
+if(copper_percentage > 90 and UNS > 66999 and UNS < 70000) then
+    display "Rod"
+end-if
+Select one:
+
+a. Error
+
+b. Cast
+
+c. Wrought
+
+d. Rod
+Feedback
+Your answer is incorrect.
+The correct answer is: Wrought
+Question 21
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode? 
+Integer a, b, c 
+Set a = 9, b = 6, c = 9 
+c = (8 + 4) + b 
+c = 11 + b 
+if (a<b OR (7+8) < (6 - a)) 
+    b = (9 + 4) ^ b 
+    c = a + c 
+End if 
+Print a + b + c 
+[Note- ^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bits of its second operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 50
+
+b. 27
+
+c. 32
+
+d. 37
+Feedback
+Your answer is incorrect.
+The correct answer is: 32
+Question 22
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Integer a,b,c
+Set a=5, b=3, c=12
+a=5+a 
+if (4 + 4) ^ c
+	a=6&c
+end if
+print a+b+c
+
+
+Select one:
+
+a. 35
+
+b. 4
+
+c. 25
+
+d. 19
+Feedback
+Your answer is incorrect.
+The correct answer is: 19
+Question 23
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer p,q,r
+Set p=2,q=7,r=-1
+p=p+q+r-q
+q=p+r-q
+if(p>q)
+    print "good bye”
+else
+    print “take care
+Select one:
+
+a. good bye take care
+
+b. None
+
+c. good bye
+
+d. take care
+Feedback
+Your answer is incorrect.
+The correct answer is: good bye
+Question 24
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer p, q, r
+Set p = 3, q = 4, r = 6
+p = 3 + r
+p = p + q
+if((r – q + p) < (p + r))
+    q = 2 & r
+    q = q + p
+End if
+Print p + q + r
+[Note- &: bitwise AND – The bitwise AND operator (&) compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 34
+
+b. 27
+
+c. 18
+
+d. 29
+Feedback
+Your answer is incorrect.
+The correct answer is: 34
+Question 25
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer p, q, r
+Set p = 3, q = 4, r = 6
+p = 3 + r
+p = p + q
+if((r – q + p) < (p + r))
+    q = 2 & r
+    q = q + p
+End if
+Print p + q + r
+[Note- &: bitwise AND – The bitwise AND operator (&) compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 29
+
+b. 34
+
+c. 27
+
+d. 18
+Feedback
+Your answer is incorrect.
+The correct answer is: 34
