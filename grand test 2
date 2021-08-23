@@ -1,0 +1,688 @@
+What will be the output of the following pseudocode for a=12 and b=-26?
+start
+take 2 variables a and b
+check if a is less than 0 set a = -a
+check if b is less than 0 set b = -b
+repeat while a is not equal to b
+if a > b set a = a-b
+else set b = b - a
+print a
+Stop
+
+Select one:
+
+a. 2
+
+b. 4
+
+c. 6
+
+d. 12
+Feedback
+Your answer is incorrect.
+The correct answer is: 2
+Question 2
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What is the output for the following code, if the value of a is 20  and b is 35?
+Integer a, b
+Input a, b
+a = b
+b = a
+Print(a,b)
+Select one:
+
+a. 35 20
+
+b. 35 35
+
+c. 20 35
+
+d. 20 20
+Feedback
+Your answer is incorrect.
+The correct answer is: 35 35
+Question 3
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What is the output for the following code, if the value of a is 4, n is 12, and r is 2?
+Input a, n, r
+sum = 0
+sum = (a * (1 - power(r, n + 1))) / (1 - r)
+Print(sum)
+Select one:
+
+a. 8
+
+b. 16382
+
+c. 32764
+
+d. 64
+Feedback
+Your answer is incorrect.
+The correct answer is: 32764
+Question 4
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b
+Set a = 15, b = 7
+a = a mod (a - 3)
+b = b mod (b – 3)
+a = a mod 1
+b = b mod 1
+Print a + b
+Select one:
+
+a. 15
+
+b. 2
+
+c. 0
+
+d. 7
+Feedback
+Your answer is incorrect.
+The correct answer is: 0
+Question 5
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo-code statements?
+integer a = 984, b, c, d =10
+print remainder(a,d) // remainder when a is divided by d
+a = a/d
+print remainder(a,d) // remainder when a is divided by d
+Select one:
+
+a. Error
+
+b. 44
+
+c. 84
+
+d. 48
+Feedback
+Your answer is incorrect.
+The correct answer is: 48
+Question 6
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo-code statements?
+integer a = 456, b, c, d =10
+b = a/d
+c = a - b
+print c
+Select one:
+
+a. 411
+
+b. 410
+
+c. 411.4
+
+d. 410.4
+Feedback
+Your answer is incorrect.
+The correct answer is: 411
+Question 7
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudo-code?
+      Integer a, b
+      Set a = 6, b = 8
+      a = a + b
+      b = a - b
+      a = a - b
+      a = a + 6      
+      print a, b
+Select one:
+
+a. 6 14
+
+b. 14 6
+
+c. 8 6
+
+d. 6 8
+Feedback
+Your answer is incorrect.
+The correct answer is: 14 6
+Question 8
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What is the output of the following code?
+z = 3 + 4 - 20 * 4 * 4 + 7
+print(z)
+Select one:
+
+a. 306
+
+b. 310
+
+c. -310
+
+d. -306
+Feedback
+Your answer is incorrect.
+The correct answer is: -306
+Question 9
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Int j=41,k=37
+
+j=j+1
+
+k=k-1
+
+j=j/k
+
+k=k/j
+
+print k,j
+
+
+Select one:
+
+a. A)      42 36
+42 36
+
+b. 36 1
+
+c. 1 36
+
+d. 1 1
+Feedback
+Your answer is incorrect.
+The correct answer is: 1 36
+Question 10
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What would be the output of the following pseudocode?
+Integer a, b, c
+Set a = 8, b = 51, c = 2
+c = (a ^ c) ^ (a)
+b = b mod 4
+Print a + b + c
+Select one:
+
+a. 13
+
+b. 26
+
+c. 16
+
+d. 17
+Feedback
+Your answer is incorrect.
+The correct answer is: 13
+Question 11
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Integer a,b,c
+Set a=5, b= 10, c = 10
+c = a
+a = (a ^ a) + b
+b = (b & 3) + c
+print a + b + c 
+
+
+Select one:
+
+a. 33
+
+b. 17
+
+c. 22
+
+d. 26
+Feedback
+Your answer is incorrect.
+The correct answer is: 22
+Question 12
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 2, b = 7, c = 5
+for(each c from 3 to 6)
+    b = c + b
+    if(b + c – a) < (a + b))
+        b = 6 + a
+    End if
+End for
+Print a + b
+Select one:
+
+a. 25
+
+b. 31
+
+c. 18
+
+d. 36
+Feedback
+Your answer is incorrect.
+The correct answer is: 25
+Question 13
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What is the output of the following pseudocode?
+Input n is 4
+Integer i, j, n, Num = 1
+Repeat for i: =1 to n
+    Repeat for j: =1 to i
+        print Num
+        Increment Num by 1
+End loop
+Select one:
+
+a. 1
+23
+456
+78910
+
+b. Num
+NumNum
+NumNumNum
+NumNumNumNum
+
+c. 1
+22
+333
+4444
+
+d. 1
+12
+123
+1234
+Feedback
+Your answer is incorrect.
+The correct answer is: 1
+23
+456
+78910
+Question 14
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a
+Set a = 10
+while(a NOT EQUALS a/2)
+    print “engineering”
+    a = a - 1
+    if(a EQUALS 3)
+        Print “engineering”
+    end if
+    jump out of the loop
+    Print “engineering”
+end while
+if(a EQUALS 2)
+    print “23”
+else
+    print “engineering”
+end if
+Select one:
+
+a. It will print engineering 2 times
+
+b. It will print engineering 3 times
+
+c. It will print engineering 4 times
+
+d. It will print 23
+Feedback
+Your answer is incorrect.
+The correct answer is: It will print engineering 2 times
+Question 15
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a,b
+Set a=2, b=50
+    while(b>0)
+        a = b MOD 2 +a
+        if( a MOD 3 IS EQUAL TO 0)
+            Print (a)
+        else
+            Print(b-1)    
+        b=b/5
+        a=a+1
+end while
+
+Select one:
+
+a. 3, 3, 3
+
+b. 50, 10, 2
+
+c. 50, 3, 2
+
+d. 49, 3, 1
+Feedback
+Your answer is incorrect.
+The correct answer is: 49, 3, 1
+Question 16
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 1, b = 2
+for(each c from 1 to 3)
+    if(a + (b ^ c))
+        a = a + 1
+        if(c ^ 2)
+            Continue
+        End if
+    End if
+    a = a + 1
+End for
+a = a + 1
+Print a + b
+[Note- Continue: When a continue statement is encountered inside a loop, control jumps to the beginning of the loop for next iteration, skipping the execution of statements inside the body of the loop for the current iteration.
+^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bits of its second operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+If(x) gets executed if the value inside if(), i.e., x is not zero.]
+Select one:
+
+a. -6
+
+b. 27
+
+c. 8
+
+d. 12
+Feedback
+Your answer is incorrect.
+The correct answer is: 8
+Question 17
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the out put of the following pseudocode?
+integer a,b,c
+set b=10
+for(each a from 1 to 4)
+    b=b+a
+end for
+c=b/5
+print c
+
+Select one:
+
+a. 4
+
+b. 20
+
+c. 5
+
+d. 10
+Feedback
+Your answer is incorrect.
+The correct answer is: 4
+Question 18
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output if n = 126?
+for (i = 1 to n-1)
+    rem = n%i;
+    if(rem=0)
+        sum = sum + i;
+if(sum == n)
+    print "Yes"
+else
+    print "No"
+Select one:
+
+a. Error
+
+b. No output
+
+c. Yes
+
+d. No
+Feedback
+Your answer is incorrect.
+The correct answer is: No
+Question 19
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Set integer value = 56
+Set integer res = 0
+while(value not equals 0) do
+    m = value % 10
+    res = res * 10 + m
+    value = value / 10
+display res
+Select one:
+
+a. 65
+
+b. 105
+
+c. 55
+
+d. 85
+Feedback
+Your answer is incorrect.
+The correct answer is: 65
+Question 20
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What is the output of the following pseudocode?
+Integer a, b, c
+Set b = 2, a = 1
+for(each c from 1 to 2)
+    a = a*c
+    b = b*c
+End for
+if ((1 & 4) || (1 ^ 1) || (2 ^ 3))
+    b = a - 1
+    a = a - 1
+Else
+    a = a ^ 1
+    b = b ^ 1
+End if
+print a + b + c
+Select one:
+
+a. 7
+
+b. 6
+
+c. 1
+
+d. 5
+Feedback
+Your answer is incorrect.
+The correct answer is: 5
+Question 21
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer i = 0, j = 0
+while(i < 2)     // line 2
+    increment i;
+    while(j < 3)
+        print A
+        Go to line no. 2
+    End while
+End while
+Select one:
+
+a. None of the mentioned options.
+
+b. It will print A four times
+
+c. It will print A two times
+
+d. It will print A three times
+Feedback
+Your answer is incorrect.
+The correct answer is: It will print A two times
+Question 22
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What is the output of the following pseudocode?
+Integer a, b, c
+Set b = 2, a = 1
+for(each c from 1 to 2)
+    a = a*c
+    b = b*c
+End for
+if ((1 & 4) || (1 ^ 1) || (2 ^ 3))
+    b = a - 1
+    a = a - 1
+Else
+    a = a ^ 1
+    b = b ^ 1
+End if
+print a + b + c
+Select one:
+
+a. 6
+
+b. 1
+
+c. 7
+
+d. 5
+Feedback
+Your answer is incorrect.
+The correct answer is: 5
+Question 23
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set b = 10, a = 1
+for(each c form 1 to 2)
+    a = (a+c) * c
+    b = b - c
+End for
+if (0)
+    b = a - 1
+    a = a - 1
+    a = b + 1
+Else
+    a = b + 1
+    b = a - 1
+    a = a - 1
+End if
+Print a + b + c
+Select one:
+
+a. 20
+
+b. 10
+
+c. 17
+
+d. 25
+Feedback
+Your answer is incorrect.
+The correct answer is: 17
+Question 24
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The following program is used to identify which type of number.
+get a number
+initialize a temp variable
+set temp = 0
+initialized and set i = 0
+while(i++ is less than half of the number){
+    if(remainder of the division between number and i is 0){
+        add the value of i to the temp variable
+    }
+}
+if(temp is equal to number){
+    return true
+}
+else{
+    return false
+}
+Select one:
+
+a. Perfect
+
+b. Narcissistic Number 
+
+c. Prime
+
+d. Harshad
+Feedback
+Your answer is incorrect.
+The correct answer is: Perfect
+Question 25
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What is the output  of this code?
+a = 1
+b = 2
+c = 3
+d = 4
+n = 1
+Repeat until(n <= 5):
+    c = a * c
+    d = a * d
+    print(c)
+    n = n + 1
+Select one:
+
+a. 2 2 2 2
+
+b. 4 4 4 4
+
+c. 3 3 3 3
+
+d. 1 1 1 1
+Feedback
+Your answer is incorrect.
+The correct answer is: 3 3 3 3
