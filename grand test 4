@@ -1,0 +1,695 @@
+Question 1
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer p, q, r 
+Set p = 3, q = 3, r = 6
+for(each r from 5 to 9)
+    q = (r + p) & p
+End for
+for(each r from 3 to 4)
+    p = (p + 2) + q 
+    q = (p + 12) + q
+End for
+Print p + q
+[Note- &: bitwise AND operator (&)compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 63
+
+b. 77
+
+c. 94
+
+d. 81
+Feedback
+Your answer is incorrect.
+The correct answer is: 77
+Question 2
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 2, b = 7, c = 5
+for(each c from 3 to 6)
+    b = c + b
+    if(b + c – a) < (a + b))
+        b = 6 + a
+    End if
+End for
+Print a + b
+Select one:
+
+a. 25
+
+b. 36
+
+c. 18
+
+d. 31
+Feedback
+Your answer is incorrect.
+The correct answer is: 25
+Question 3
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer pp, qq, rr
+Set pp = 3, qq = 10, rr = 13
+for(each rr from 5 to 6)
+    pp = (9 + 11) + rr 
+End for
+for(each rr from 2 to 3)
+    pp = (pp & qq) + pp
+End for
+Print pp + qq
+[Note- &: bitwise AND-The bitwise AND operator (&) compares each bit of the first opera corresponding bit of the second operand. 
+If both bits are 1, the corresponding result bit i Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 52
+
+b. 46
+
+c. 054
+
+d. 041
+Feedback
+Your answer is incorrect.
+The correct answer is: 46
+Question 4
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Input is 4
+Integer i, j, n
+Repeat for i: =1 to n
+    Repeat for j: =1 to i
+        print i
+End loop
+Select one:
+
+a. i
+ii
+iii
+iiii
+
+b. 1
+22
+333
+4444
+
+c. 1
+12
+123
+1234
+
+d. iiii
+iii
+ii
+i
+Feedback
+Your answer is incorrect.
+The correct answer is: 1
+22
+333
+4444
+Question 5
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Integer a, b, v, c
+Set a = 9, v = 27
+While (v > 5)
+	a = a + v
+	c = a – 10
+	while (c >7)
+		b = v + c
+		c = c – 60
+	end while
+	v = v/3
+end while
+print a, c, v
+
+
+Select one:
+
+a. 45 -25 3
+
+b. None of the mentioned options
+
+c. 45 25 3
+
+d. 89 -41 4
+Feedback
+Your answer is incorrect.
+The correct answer is: 45 -25 3
+Question 6
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer pp, qq, rr
+Set pp = 3, qq = 10, rr = 13
+for(each rr from 5 to 6)
+    pp = (9 + 11) + rr 
+End for
+for(each rr from 2 to 3)
+    pp = (pp & qq) + pp
+End for
+Print pp + qq
+[Note- &: bitwise AND-The bitwise AND operator (&) compares each bit of the first opera corresponding bit of the second operand. 
+If both bits are 1, the corresponding result bit i Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 52
+
+b. 054
+
+c. 041
+
+d. 46
+Feedback
+Your answer is incorrect.
+The correct answer is: 46
+Question 7
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a
+Set a = 10
+while(a NOT EQUALS a/2)
+    print “engineering”
+    a = a - 1
+    if(a EQUALS 3)
+        Print “engineering”
+    end if
+    jump out of the loop
+    Print “engineering”
+end while
+if(a EQUALS 2)
+    print “23”
+else
+    print “engineering”
+end if
+Select one:
+
+a. It will print engineering 2 times
+
+b. It will print 23
+
+c. It will print engineering 3 times
+
+d. It will print engineering 4 times
+Feedback
+Your answer is incorrect.
+The correct answer is: It will print engineering 2 times
+Question 8
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 2, b = 7, c = 5
+for(each c from 3 to 6)
+    b = c + b
+    if(b + c – a) < (a + b))
+        b = 6 + a
+    End if
+End for
+Print a + b
+Select one:
+
+a. 31
+
+b. 18
+
+c. 25
+
+d. 36
+Feedback
+Your answer is incorrect.
+The correct answer is: 25
+Question 9
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b , c
+Set a = 1, b = 2
+for(each c from 4 to 6)
+    a = a ^ b
+    if(c - a < b + a)
+	b = 2
+	a = 1
+	Jump out of the loop
+    End if
+    a = a ^ c
+End for
+Print a + b
+[Note: ^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bits of its second operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. -2
+
+b. 8
+
+c. 16
+
+d. 3
+Feedback
+Your answer is incorrect.
+The correct answer is: 3
+Question 10
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for a = 5, b = 10?
+int c  = a - b
+for i = 1 to 4 
+    c = c - a
+    for j = 3 to i
+        a = a + i
+        c = c + a + j
+    end for
+end for
+Print c
+Select one:
+
+a. None of the mentioned options
+
+b. 92
+
+c. 18
+
+d. 393
+Feedback
+Your answer is incorrect.
+The correct answer is: 18
+Question 11
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+int p=4, q=7, r=10
+p=q mod r
+q=q+p
+r=r+q
+print p, q and r
+Select one:
+
+a. 7 1 4 2 1
+
+b. 7 1 1 1 7
+
+c. 4 1 1 1 7
+
+d. 7 1 4 2 4
+Feedback
+Your answer is incorrect.
+The correct answer is: 7 1 4 2 4
+Question 12
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+integer a =50, b =25, c =5
+print a * b / c + c
+Select one:
+
+a. 255
+
+b. 256
+
+c. 120
+
+d. 125
+Feedback
+Your answer is incorrect.
+The correct answer is: 255
+Question 13
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Integer x, y, z, a
+Set x=2, y=1, z=5 
+a= (x AND y) or (z+1)
+print a
+
+
+Select one:
+
+a. 5
+
+b. 2
+
+c. 1
+
+d. 3
+Feedback
+Your answer is incorrect.
+The correct answer is: 1
+Question 14
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What is the output of the following code?
+z = 3 + 4 - 20 * 4 * 4 + 7
+print(z)
+Select one:
+
+a. 310
+
+b. -310
+
+c. -306
+
+d. 306
+Feedback
+Your answer is incorrect.
+The correct answer is: -306
+Question 15
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b
+Set a = 15, b = 7
+a = a mod (a - 3)
+b = b mod (b – 3)
+a = a mod 1
+b = b mod 1
+Print a + b
+Select one:
+
+a. 0
+
+b. 15
+
+c. 2
+
+d. 7
+Feedback
+Your answer is incorrect.
+The correct answer is: 0
+Question 16
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b, c
+Set a = 3, b = 1, c=3
+if (a & b & c)
+        a = a & b & c
+End if
+if (a ^ b ^ c)
+        a = a ^ b ^ c
+End if
+Print a - b + c
+[Note- & bitwise AND-The bitwise AND operator (&) compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bit of its second operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+If(x) gets executed if the value inside if(), i.e., x is not zero]
+Select one:
+
+a. 9
+
+b. 1
+
+c. 5
+
+d. 14
+Feedback
+Your answer is incorrect.
+The correct answer is: 5
+Question 17
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer p, q, r
+Set p = 0, q = 6, r = 5
+if((1 + r + p) > (p + q))
+    p = 5 + r 
+    p = (9 + 12) + q
+End if
+print p + q + r
+Select one:
+
+a. 12
+
+b. 11
+
+c. 5
+
+d. 29
+Feedback
+Your answer is incorrect.
+The correct answer is: 11
+Question 18
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer p,q,r
+Set p=2,q=7,r=-1
+p=p+q+r-q
+q=p+r-q
+if(p>q)
+    print "good bye”
+else
+    print “take care
+Select one:
+
+a. good bye take care
+
+b. take care
+
+c. good bye
+
+d. None
+Feedback
+Your answer is incorrect.
+The correct answer is: good bye
+Question 19
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer c, n
+Set n = 6
+Set c = n
+Print c // Line 4
+c = c - 2
+if(c > 0)
+    GO to line number 4
+end if
+Select one:
+
+a. 6 4 2
+
+b. 6 4 2 0
+
+c. 0 2 4 6
+
+d. 2 4 6
+Feedback
+Your answer is incorrect.
+The correct answer is: 6 4 2
+Question 20
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+Integer a, b
+Set a = 10
+Set b = a + a
+if (b > a && 0)
+    b = b - a
+    b = b mod a
+End if
+if (b > a || 0)
+    b = b + a
+    b = b + a
+End if
+Print b
+[Note- mod finds the remainder after the division of one number by another. For example, the "5 mod 2" would evaluate to 1 because 5 divided by 2 leaves a quotient of 2 and a remainder of 1]
+[Note-&&: Logical AND - The logical AND operator (&&) returns the Boolean value true(or 1) if both operands are true and return false (or 0) otherwise
+&: bitwise AND - The bitwise AND operator (&) compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0]
+Select one:
+
+a. 20
+
+b. 50
+
+c. 10
+
+d. 40
+Feedback
+Your answer is incorrect.
+The correct answer is: 40
+Question 21
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode?
+
+Integer a, b, c
+Set a = 1, b = 12, c = 2
+if(1 < 2)
+        if(1 || 1)
+                a = a ^ c
+        End if
+        a = a ^ b
+End if
+Print a - b + c
+[Note- ||: Logical OR - The logical OR operator (||) returns the Boolean value TRUE (or 1) if either or both operands are true and return FALSE (or 0) otherwise.
+^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bits of its second operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.]
+Select one:
+
+a. 19
+
+b. 2
+
+c. 5
+
+d. 10
+Feedback
+Your answer is incorrect.
+The correct answer is: 5
+Question 22
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following Pseudocode?
+int a=9, b=7, c=8, d=4, e
+e = a + b + c + d / 4
+if (e > 5)
+    print "PASS"
+else
+    print "FAIL"
+Select one:
+
+a. PASS
+
+b. FAIL
+
+c. 1
+
+d. 0
+Feedback
+Your answer is incorrect.
+The correct answer is: PASS
+Question 23
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode? 
+Integer p, q, r 
+Set p = 1, q = 5, r = 9 
+q = q + p 
+if((q + p) > (r - q)) 
+    p = 5 + q 
+End if
+Print p + q + r
+Select one:
+
+a. 26
+
+b. 24
+
+c. 37
+
+d. 31
+Feedback
+Your answer is incorrect.
+The correct answer is: 26
+Question 24
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode for a = 5, b = 1?
+Integer funn(Integer a, Integer b)
+    if((b + a || a - b) && (b > a) && 1)
+        a = a + b + b - 2
+        return 3 - a
+    Else
+        return a - b + 1
+    End if
+        return a + b
+End function funn()
+ 
+[Note-&&: Logical AND - The logical AND operator (&&) returns the Boolean value true (or 1) if both operands are true and return false (or 0) otherwise.
+||: Logical OR - The logical OR operator (||) returns the Boolean value TRUE (or 1) if either or both operands are true and return FALSE (or 0) otherwise.
+If(x) gets executed if the value inside if(), i.e., x is not zero.]
+Select one:
+
+a. 5
+
+b. 0
+
+c. 11
+
+d. 16
+Feedback
+Your answer is incorrect.
+The correct answer is: 5
+Question 25
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the output of the following pseudocode? 
+Integer a, b, c 
+Set a = 6, b = 10, c = 14 
+if((b + c) < (c - b) OR b>c) 
+    b = (c + a) + b 
+    c = 10 + b 
+Else 
+    c = (a + a) + a 
+    c = (c + c) ^ b 
+End if 
+Print a + b + c 
+[Note- ^ is the bitwise exclusive OR operator that compares each bit of its first operand to the corresponding bits of 
+its second operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. Otherwise, 
+the corresponding result bit is set to 0.]
+Select one:
+
+a. 69
+
+b. 62
+
+c. 72
+
+d. 58
+Feedback
+Your answer is incorrect.
+The correct answer is: 62
